@@ -1,0 +1,11 @@
+# Simple ScoreBoard plugin created by Louis_292
+# This is the config file
+
+# the score board name
+score_board_title: "&eCustom Minecraft Server"
+
+# custom your scoreboard, you can use color, and {PLAYER_NAME}
+score_board:
+  1: "&eYour Minecraft Server"
+  2: "&eConnected on {PLAYER_NAME}"
+  3: "&aGood luck !"
