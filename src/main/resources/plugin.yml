@@ -2,3 +2,5 @@ name: SimpleScoreBoard
 version: '1.0'
 main: fr.Louis292.simpleScoreBoard.SimpleScoreBoard
 author: Louis_292
+softdepend:
+  - PlaceholderAPI

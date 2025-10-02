@@ -4,8 +4,25 @@
 # the score board name
 score_board_title: "&eCustom Minecraft Server"
 
-# custom your scoreboard, you can use color, and {PLAYER_NAME}
+# use auto refresh
+auto_refresh:
+  active: true
+  timer: 10 # in second
+
+# refresh all scoreboard on one player join
+refresh_on_player_join: true
+
+# use PlaceHolders
+use_placeholders: true
+
+# custom you Score Board you can use:
+#   - {PLAYER_NAME} for get the player name
+#   - {PLAYERS} for get all players count
+#   - and PlaceHolders if you have active this
 score_board:
-  1: "&eYour Minecraft Server"
-  2: "&eConnected on {PLAYER_NAME}"
-  3: "&aGood luck !"
+  - "&eYour Minecraft Server"
+  - "&eConnected on {PLAYER_NAME}"
+  - "&aGood luck !"
+
+# developer mod, is not recommented to enable
+debug: false

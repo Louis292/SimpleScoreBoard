@@ -7,7 +7,9 @@ A simple plugin created by Louis_292 to customize and personalize your server sc
 
 - Customize your scoreboard
 
-- You can use the Chat Color and add {player_name}
+- You can use the Chat Color, {PLAYER_NAME}, {PLAYERS}
+
+- You can use PlaceHolders
 
 ## Installation
 
